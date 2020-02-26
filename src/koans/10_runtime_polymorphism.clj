@@ -16,13 +16,13 @@
 
 (meditations
   "Some functions can be used in different ways - with no arguments"
-  (= __ (hello))
+  (= "Hello World!" (hello))
 
   "With one argument"
-  (= __ (hello "world"))
+  (= "Hello, you silly world." (hello "world"))
 
   "Or with many arguments"
-  (= __
+  (= "Hello to this group: Peter, Paul, Mary!"
      (hello "Peter" "Paul" "Mary"))
 
   "Multimethods allow more complex dispatching"
